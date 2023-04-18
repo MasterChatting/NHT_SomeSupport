@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'NHT_SomeSupport'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of NHT_SomeSupport.'
+  s.version          = '1.0.0'
+  s.summary          = '常用功能.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,14 +21,14 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/NHT18610866107@163.com/NHT_SomeSupport'
+  s.homepage         = 'https://github.com/MasterChatting/NHT_SomeSupport.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'NHT18610866107@163.com' => 'NHT18610866107@163.com' }
-  s.source           = { :git => 'https://github.com/NHT18610866107@163.com/NHT_SomeSupport.git', :tag => s.version.to_s }
+  s.author           = { 'NHT@163.com' => 'NHT@163.com' }
+  s.source           = { :git => 'https://github.com/MasterChatting/NHT_SomeSupport.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'NHT_SomeSupport/Classes/**/*'
   

@@ -7,7 +7,7 @@
 //
 
 #import "NHTViewController.h"
-
+#import <NHT_SomeSupport.h>
 @interface NHTViewController ()
 
 @end
@@ -18,6 +18,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    [Support_Common IsEmptyStr:@"0"];
 }
 
 - (void)didReceiveMemoryWarning
